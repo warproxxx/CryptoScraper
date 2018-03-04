@@ -34,7 +34,7 @@ while (start_unixtime < latest_time):
     
     print('Saved till {}'.format(datetime.datetime.fromtimestamp(int(end_unixtime)).strftime('%Y-%m-%d %H:%M:%S')))
     
-    start_unixtime = end_unixtime
+    start_unixtime = end_unixtime + 60 * 60 #to prevent duplicates
     count = count + 1
     
     if (count == 10): #if 10 requests are made
