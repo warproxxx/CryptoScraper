@@ -1,2 +1,1 @@
-def __init__():
-	print('abc');
+from CryptoScraper.bitfinex import BtcFinex
