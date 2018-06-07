@@ -1,1 +1,1 @@
-from CryptoScraper.bitfinex import BtcFinex
+from CryptoScraper.cryptoDownloader import cryptoDownloader, getAllData
